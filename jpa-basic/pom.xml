@@ -28,7 +28,8 @@
       <version>2.7.7</version>
   </dependency>
   <!-- https://mvnrepository.com/artifact/org.apache.derby/derbyclient -->
- <dependency>
+ <!--
+      <dependency>
     <groupId>org.apache.derby</groupId>
     <artifactId>derby</artifactId>
     <version>10.15.2.0</version>
@@ -37,6 +38,13 @@
     <groupId>org.apache.derby</groupId>
     <artifactId>derbytools</artifactId>
     <version>10.15.2.0</version>
-</dependency>
+</dependency>-->
+      <dependency>
+          <groupId>com.h2database</groupId>
+          <artifactId>h2</artifactId>
+          <version>1.4.200</version>
+          <!--<scope>runtime</scope> -->
+      </dependency>
+
   </dependencies>
 </project>
